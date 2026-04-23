@@ -39,6 +39,7 @@ In this build:
 - the **black wire** is connected to **GND**
 - the **white data wire** is connected to the ESP32’s **RX2**
 - the same data line is also connected to **TX2 through a Schottky diode**
+- a 4.7kΩ pull-up from **RX2** to 3.3V
 
 ### Why the Schottky diode is needed
 
