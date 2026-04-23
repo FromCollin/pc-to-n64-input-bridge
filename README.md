@@ -95,3 +95,4 @@ USB from PC      -> ESP32 power + serial data
 ```
 
 <img src="wiring.jpg" alt="ESP32 to N64 wiring diagram" width="700">
+<img src="wiring2.jpg" alt="ESP32 to N64 wiring diagram" width="700">
