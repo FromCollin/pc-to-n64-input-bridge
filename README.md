@@ -82,6 +82,8 @@ This is much more reliable than trying to bit-bang the protocol entirely in soft
 
 ---
 
+
+
 ## Wiring Summary
 
 ```text
@@ -89,7 +91,6 @@ N64 GND (black)  -> ESP32 GND
 N64 DATA (white) -> ESP32 RX2
 ESP32 TX2        -> Schottky diode -> N64 DATA (white)
 USB from PC      -> ESP32 power + serial data
-<p align="center">
-  <img src="wiring.jpg" alt="ESP32 to N64 wiring diagram" width="700">
-</p>
+```
 
+<img src="wiring.jpg" alt="ESP32 to N64 wiring diagram" width="700">
