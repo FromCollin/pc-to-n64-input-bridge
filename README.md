@@ -16,4 +16,4 @@ The diode is needed because the N64 data line is effectively a shared single-wir
 
 On the software side, the implementation avoids slow software timing loops and instead relies on ESP32 hardware features for much tighter timing. In the RMT-based version, the ESP32 uses its Remote Control peripheral to decode incoming N64 command pulses and generate properly timed response pulses, while Python continuously updates the controller state over USB serial. This approach is much more reliable than trying to bit-bang the protocol entirely in software.
 
-![Wiring diagram](IMG_2016.heic)
+![Wiring diagram](IMG_2016.jpg)
