@@ -92,6 +92,7 @@ This is much more reliable than trying to bit-bang the protocol entirely in soft
 N64 GND (black)  -> ESP32 GND
 N64 DATA (white) -> ESP32 RX2
 ESP32 TX2        -> Schottky diode -> N64 DATA (white)
+ESP32 RX2        -> 4.7kΩ pull-up  -> 3.3V
 USB from PC      -> ESP32 power + serial data
 ```
 
