@@ -69,7 +69,7 @@ In the RMT-based version, the ESP32 uses its **RMT peripheral** to:
 
 Meanwhile, Python continuously updates the controller state over USB serial.
 
-This is much more reliable than trying to bit-bang the protocol entirely in software.
+This is much more reliable than trying to bit-bang the protocol entirely in software. Super Smas Bros DOES NOT WORK WELL. The character select screen has weird controller disconnect issues I can't seem to isolate. Mario 64 and Banjo-Kazooie run flawlessly.
 
 ---
 
