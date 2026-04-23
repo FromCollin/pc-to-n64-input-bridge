@@ -79,6 +79,7 @@ This is much more reliable than trying to bit-bang the protocol entirely in soft
 - **Tool-assisted speedrun playback**
 - **AI or scripted input pipelines**
 - **Experimentation with real N64 hardware control**
+- **Online play via parsec and the python script**
 
 ---
 
