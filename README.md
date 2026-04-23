@@ -90,6 +90,6 @@ N64 DATA (white) -> ESP32 RX2
 ESP32 TX2        -> Schottky diode -> N64 DATA (white)
 USB from PC      -> ESP32 power + serial data
 <p align="center">
-  <img src="images/wiring.jpeg" alt="ESP32 to N64 wiring diagram" width="700">
+  <img src="wiring.jpeg" alt="ESP32 to N64 wiring diagram" width="700">
 </p>
 
