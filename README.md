@@ -54,7 +54,7 @@ A **Schottky diode** is used because it has:
 - a **low forward voltage drop**
 - **fast switching behavior**
 
-Both are helpful for the tight timing requirements of the N64 protocol.
+Both are helpful for the tight timing requirements of the N64 protocol. You also need a 4.7kΩ pull-up to 3.3V.
 
 ---
 
